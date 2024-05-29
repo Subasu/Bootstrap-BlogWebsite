@@ -52,6 +52,21 @@
             </div>
         </nav>
     </header>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Data</a></li>
+              <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
+        </nav>
+        <nav >
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">About</li>
+            </ol>
+        </nav>
+    </div>
     <div class="jumbotron ">
         <div class="container">
             <h1 class="display-4">Hello There!</h1>
@@ -95,7 +110,68 @@
         <button class="my-2 btn btn-primary">Button 1</button>
         <button class="my-2 btn btn-primary active">Button 2</button>
         <button class="my-2 btn btn-primary disabled">Button 3</button>
+        <hr>
+    </div>
+
+    <div class="container">
+        <h1>Example heading <span class="badge text-bg-primary">New</span></h1>
+        <h2>Example heading <span class="badge text-bg-secondary">New</span></h2>
+        <h3>Example heading <span class="badge text-bg-dark">New</span></h3>
+        <h4>Example heading <span class="badge text-bg-warning text-white">New</span></h4>
+        <h5>Example heading <span class="badge text-bg-success">New</span></h5>
+        <h6>Example heading <span class="badge text-bg-danger">New</span></h6>
+        <hr>
+    </div>
+
+    <div class="container">
+        <button type="button" class="btn btn-primary">
+            Badge <span class="badge bg-secondary">4</span>
+        </button>
+        <button type="button" class="btn btn-primary ">
+            rounded Badge <span class="badge rounded-pill bg-secondary">4</span>
+        </button>
+        <button type="button" class="btn btn-secondary">
+            Notifications <span class="badge bg-primary">4</span>
+        </button>
+        <button type="button" class="btn btn-outline-danger">
+            Notifications <span class="badge bg-success">4</span>
+        </button>
+        
+    </div>
+    <div class="container my-5">
+        <div class="display-3 h3">Carousel</div>
+        <div id="ImageSlider" class="carousel slide h-40">
+            <button class="carousel-control-prev" type="button" data-bs-target="#ImageSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/img1.jpeg" class="d-block w-100" alt="img1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img2.jpeg" class="d-block w-100" alt="img2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img3.jpeg" class="d-block w-100" alt="img3">
+                </div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#ImageSlider" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container">
+        <h4>Pagination</h4>
+        <div class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </div>
+        <hr>
     </div>
 </body>
-
 </html>
